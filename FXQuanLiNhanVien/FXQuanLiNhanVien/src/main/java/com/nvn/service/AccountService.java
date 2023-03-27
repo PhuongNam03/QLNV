@@ -38,6 +38,8 @@ public class AccountService {
            stm1.setString(1, a.getAccName());
            stm1.setString(2, a.getPassword());
            stm1.executeUpdate();
+           
+           conn.commit();
        }
    }
    

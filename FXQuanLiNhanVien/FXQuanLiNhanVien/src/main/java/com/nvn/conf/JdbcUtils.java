@@ -25,8 +25,9 @@ public class JdbcUtils {
 
     /**
      * @return the conn
+     * @throws java.sql.SQLException
      */
     public static Connection getConn() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost/qlnvdb","root","123456789");
+        return DriverManager.getConnection("jdbc:mysql://localhost/qlnv","root","Nam0329466394@");
     }
 }
